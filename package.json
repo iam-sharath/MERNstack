@@ -7,9 +7,12 @@
   ],
   "license": "ISC",
   "author": "sharath",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodeman src/index.js"
+  },
+  "dependencies": {
+    "nodeman": "^1.1.2"
   }
 }
